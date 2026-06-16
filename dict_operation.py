@@ -9,3 +9,6 @@ print(the_dict.keys())
 print(the_dict.values())
 the_dict["address"]="India"
 print(the_dict)
+
+the_dict.pop("age")
+print(the_dict)
